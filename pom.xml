@@ -18,6 +18,7 @@
 		<org.slf4j.version>1.7.2</org.slf4j.version>
 		<org.springframework.version>3.2.1.RELEASE</org.springframework.version>
 		<org.springframework.social.version>1.0.3.RELEASE</org.springframework.social.version>
+		<org.thymeleaf.version>2.0.16</org.thymeleaf.version>
 		<org.twitter4j.version>3.0.3</org.twitter4j.version>
 	</properties>
 
@@ -49,6 +50,13 @@
 			<groupId>org.springframework.social</groupId>
 			<artifactId>spring-social-twitter</artifactId>
 			<version>${org.springframework.social.version}</version>
+		</dependency>
+		
+		<!-- Thymeleaf -->
+		<dependency>
+			<groupId>org.thymeleaf</groupId>
+			<artifactId>thymeleaf-spring3</artifactId>
+			<version>${org.thymeleaf.version}</version>
 		</dependency>
 		
 		<!-- Twitter4J -->
